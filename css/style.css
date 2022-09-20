@@ -483,6 +483,11 @@ nav a:hover::before {
     background-color: transparent;
 }
 
+.moon:hover {
+    transform: scale3d(1.5, 1.5, 0.5);
+	transition: all 0.3s ease-in-out;
+}
+
 .main {
     flex: 1 1 auto;
     margin: 1rem;
@@ -496,7 +501,18 @@ nav a:hover::before {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: 0.8rem;
 }
+
+.footer a {
+    color:rgba(90, 87, 255, 0.829);
+}
+
+.footer a:hover {
+    color: rgba(145, 145, 145, 0.904);
+    text-shadow: 1px 2px 1rem rgb(0, 225, 255);
+}
+
 
 .madeby {
     margin: 1rem;
