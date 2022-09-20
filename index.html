@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dark&Light</title>
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Example description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="" />
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/4af5d3f501.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.2.0/css/all.css">
+</head>
+
+<body id="demo">
+    <div class="wrapper">
+        <header class="header">
+
+            <div>
+                <div class="container">
+                    <div>
+                        <img id="logo" class="logo" src="img/tatyana_logo.png" alt="Lady" />
+                    </div>
+
+                    <div>
+                        <nav>
+                            <!-- Names of the pageges -->
+                            <ul>
+                                <li id="page" class="nav__item"><a href="#">Главная</a></li>
+                                <li id="page" class="nav__item"><a href="#">Услуги</a></li>
+                                <li id="page" class="nav__item"><a href="#">Цены</a></li>
+                                <li id="page" class="nav__item"><a href="#">Галерея</a></li>
+                                <li id="page" class="nav__item"><a href="#">Контакты</a></li>
+                            </ul>
+                            <!-- Icons instead names of the pageges -->
+                            <ul>
+                                <li id="icon" class="nav__item"><a href="#"><i class="fa-solid fa-house"></i></a>
+                                </li>
+                                <li id="icon" class="nav__item"><a href="#"><i class="fa-solid fa-scissors"></i></a>
+                                </li>
+                                <li id="icon" class="nav__item"><a href="#"><i class="fa-solid fa-ruble-sign"></i></a>
+                                </li>
+                                <li id="icon" class="nav__item"><a href="#"><i class="fa-regular fa-image"></i></a></li>
+                                <li id="icon" class="nav__item"><a href="#"><i
+                                            class="fa-regular fa-address-card"></i></a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="flex-item-center">
+                    <h1>Салон-Парикмахерская<br />"ТАТЬЯНА"</h1>
+                    <p class="p__underh1">Предлагаем самый широкий спектр услуг</p>
+                    <div class="mode__buttons">
+                        <button class="moon" type="button"
+                            onclick="document.getElementById('demo').style.background='black';document.getElementById('demo').style.color='white';document.getElementById('footer__img').src='img/tatyana_white.png'">&#127762;</button>
+
+                        <button class="moon" type="button"
+                            onclick="document.getElementById('demo').style.background='white';document.getElementById('demo').style.color='black';document.getElementById('footer__img').src='img/tatyana_black.png'">&#127766;</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+        <main class="main">
+            <div>
+                <h2>MAIN</h2>
+            </div>
+        </main>
+        <footer class="footer">
+            <div>
+                <img id="footer__img" src='img/tatyana_black.png' loading="lazy" alt="Tatyana">
+            </div>
+            <div class="madeby">
+                <span>&copy; Made by <a href="https://justtrustme.ru/">The
+                        Tasmanian Cat Studio.</a></span>
+            </div>
+            <!-- <script>
+                document.write(Date());
+            </script> -->
+        </footer>
+    </div>
+
+    <script type="text/javascript" src=""></script>
+</body>
+
+</html>
